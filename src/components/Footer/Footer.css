@@ -1,0 +1,18 @@
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(32, 29, 38);
+  text-align: center;
+  padding: 20px;
+  font-size: 18px;
+  margin: 0;
+  font-family: "Questrial", sans-serif;
+  color: rgb(209, 219, 228);
+}
+
+.link {
+  margin-left: 5px;
+  color: rgb(0, 204, 255);
+}

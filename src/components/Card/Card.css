@@ -1,10 +1,9 @@
 img {
-  width: 300px;
+  width: 350px;
 }
 
 .main {
   background-color: #23242c;
-
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -14,10 +13,49 @@ img {
 }
 
 .center-div {
+  width: 350px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
   background-color: #1a1c21;
+}
+
+.name {
+  color: aliceblue;
+  margin-top: 20px;
+  margin-bottom: 3px;
+  font-size: 32px;
+}
+
+.job {
+  color: rgb(51, 161, 91);
+  margin-top: 0;
+  font-size: 18px;
+  font-style: italic;
+}
+
+.email {
+  padding: 10px 120px;
+  border-radius: 8px;
+  border: none;
+}
+
+.text {
+  text-align: left;
+  padding: 20px;
+}
+
+.heading {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: aliceblue;
+}
+
+.info {
+  font-size: 14px;
+  margin: 0;
+  margin-bottom: 20px;
+  color: rgba(240, 248, 255, 0.564);
 }

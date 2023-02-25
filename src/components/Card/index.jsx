@@ -8,23 +8,21 @@ const Card = () => {
       <div className="main">
         <img src="/photo.jpeg" alt="photo" />
         <div className="center-div">
-          <h1> Caroline Veloso</h1>
-          <h2>Software Developer</h2>
-          <button>Email</button>
-          <div>
-            <h3>About</h3>
-            <p>
+          <h1 className="name"> Caroline Veloso</h1>
+          <h2 className="job">Software Developer</h2>
+          <button className="email">Email</button>
+          <div className="text">
+            <h3 className="heading">About</h3>
+            <p className="info">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum
               voluptatibus quo impedit sapiente libero perspiciatis dolore et,
               nostrum aut, laudantium molestias. Exercitationem consequuntur
-              illum, laboriosam dolore laborum ea soluta eius?
             </p>
-            <h3>Interests</h3>
-            <p>
+            <h3 className="heading">Interests</h3>
+            <p className="info">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
               reiciendis est reprehenderit optio quidem nemo, quas consequuntur
-              ut? Saepe at cum nam impedit iusto qui! Quod, ipsam itaque! Nam,
-              minus?
+              ut? Saepe at cum nam impedit iusto qui! Quod,
             </p>
           </div>
         </div>

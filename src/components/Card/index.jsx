@@ -1,7 +1,8 @@
 import React from "react";
 
-import EmailIcon from "@mui/icons-material/Email";
 import "./Card.css";
+import EmailIcon from "@mui/icons-material/Email";
+import SocialBtn from "../SocialBtn";
 
 const Card = () => {
   return (
@@ -35,6 +36,7 @@ const Card = () => {
               reiciendis est reprehenderit optio quidem nemo.
             </p>
           </div>
+          <SocialBtn />
         </div>
       </div>
     </>

@@ -1,5 +1,7 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
+import EmailIcon from "@mui/icons-material/Email";
 import "./Card.css";
 
 const Card = () => {
@@ -10,7 +12,10 @@ const Card = () => {
         <div className="center-div">
           <h1 className="name"> Caroline Veloso</h1>
           <h2 className="job">Software Developer</h2>
-          <button className="email">Email</button>
+          <Link to="cveloso@hotmail.co.uk" className="email">
+            <EmailIcon className="icon" sx={{ fontSize: 22 }} />
+            Email
+          </Link>
           <div className="text">
             <h3 className="heading">About</h3>
             <p className="info">

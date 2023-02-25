@@ -1,5 +1,7 @@
 img {
-  width: 350px;
+  width: 300px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 .main {
@@ -9,11 +11,14 @@ img {
   justify-content: center;
   align-items: center;
   text-align: center;
-  min-height: 90vh;
+  margin-left: 600px;
+  margin-right: 600px;
+  margin-top: 3vh;
+  padding: 30px;
 }
 
 .center-div {
-  width: 350px;
+  width: 300px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -24,20 +29,29 @@ img {
 
 .name {
   color: aliceblue;
-  margin-top: 20px;
-  margin-bottom: 3px;
-  font-size: 32px;
+  margin-top: 10px;
+  margin-bottom: 0;
+  font-size: 28px;
 }
 
 .job {
   color: rgb(51, 161, 91);
   margin-top: 0;
-  font-size: 18px;
+  font-size: 16px;
   font-style: italic;
+  margin-bottom: 0;
+}
+
+.website {
+  text-decoration: none;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  color: rgba(240, 248, 255, 0.637);
+  font-size: 14px;
 }
 
 .email {
-  padding: 10px 120px;
+  padding: 7px 90px;
   border-radius: 8px;
   border: none;
   display: flex;
@@ -46,10 +60,11 @@ img {
   background-color: aliceblue;
   color: black;
   text-decoration: none;
+  font-size: 14px;
 }
 
 .icon {
-  margin-right: 10px;
+  margin-right: 8px;
 }
 
 .text {

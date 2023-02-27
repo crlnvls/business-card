@@ -8,10 +8,10 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 const SocialBtn = () => {
   return (
     <>
-      <div>
-        <GitHubIcon />
-        <LinkedInIcon />
-        <InstagramIcon />
+      <div className="social">
+        <GitHubIcon sx={{ fontSize: 28 }} className="icons" />
+        <LinkedInIcon sx={{ fontSize: 28 }} className="icons" />
+        <InstagramIcon sx={{ fontSize: 28 }} className="icons" />
       </div>
     </>
   );

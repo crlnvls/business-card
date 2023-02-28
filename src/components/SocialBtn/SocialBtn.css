@@ -2,7 +2,7 @@
   background-color: #161619;
   width: 300px;
   padding: 10px 0;
-  color: #928e9b;
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -13,4 +13,8 @@
 .icons {
   margin-left: 20px;
   margin-right: 20px;
+}
+
+a {
+  color: #928e9b;
 }

@@ -9,9 +9,15 @@ const SocialBtn = () => {
   return (
     <>
       <div className="social">
-        <GitHubIcon sx={{ fontSize: 28 }} className="icons" />
-        <LinkedInIcon sx={{ fontSize: 28 }} className="icons" />
-        <InstagramIcon sx={{ fontSize: 28 }} className="icons" />
+        <a href="https://github.com/crlnvls" target="_blank">
+          <GitHubIcon sx={{ fontSize: 28 }} className="icons" />
+        </a>
+        <a href="https://www.linkedin.com/in/crlnvls/" target="_blank">
+          <LinkedInIcon sx={{ fontSize: 28 }} className="icons" />
+        </a>
+        <a href="">
+          <InstagramIcon sx={{ fontSize: 28 }} className="icons" />
+        </a>
       </div>
     </>
   );

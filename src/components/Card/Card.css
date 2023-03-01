@@ -5,7 +5,7 @@ img {
 }
 
 .main {
-  background-color: #23242c;
+  background-color: #23252d;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -13,6 +13,7 @@ img {
   text-align: center;
   margin-left: 50vh;
   margin-right: 50vh;
+  border-radius: 25px;
 }
 
 @media screen and (max-width: 1200px) {

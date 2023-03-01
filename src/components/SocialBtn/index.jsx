@@ -9,7 +9,7 @@ const SocialBtn = () => {
   return (
     <>
       <div className="social">
-        <a href="https://github.com/crlnvls" target="_blank">
+        <a href="https://github.com/crlnvls/business-card" target="_blank">
           <GitHubIcon sx={{ fontSize: 28 }} className="icons" />
         </a>
         <a href="https://www.linkedin.com/in/crlnvls/" target="_blank">

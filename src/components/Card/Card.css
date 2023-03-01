@@ -35,11 +35,19 @@ img {
   border-bottom-right-radius: 10px;
 }
 
+#light .center-div {
+  background-color: #f5f5f5;
+}
+
 .name {
   color: aliceblue;
   margin-top: 10px;
   margin-bottom: 0;
   font-size: 28px;
+}
+
+#light .name {
+  color: black;
 }
 
 .job {
@@ -58,6 +66,10 @@ img {
   font-size: 14px;
 }
 
+#light .website {
+  color: #757994;
+}
+
 .email {
   padding: 7px 90px;
   border-radius: 8px;
@@ -69,6 +81,11 @@ img {
   color: black;
   text-decoration: none;
   font-size: 14px;
+}
+
+#light .email {
+  border: 1px solid rgba(0, 0, 0, 0.35);
+  background-color: white;
 }
 
 .icon {
@@ -87,9 +104,17 @@ img {
   color: aliceblue;
 }
 
+#light .heading {
+  color: black;
+}
+
 .info {
   font-size: 14px;
   margin: 0;
   margin-bottom: 15px;
   color: rgba(240, 248, 255, 0.564);
+}
+
+#light .info {
+  color: #757994;
 }

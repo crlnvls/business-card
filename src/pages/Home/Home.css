@@ -1,0 +1,27 @@
+.switch {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+#light .switch {
+  color: black;
+}
+
+.border {
+  width: 150px;
+  background-color: #393b41;
+  margin: 0;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+}
+
+#light .border {
+  background-color: #f5f5f5;
+}
